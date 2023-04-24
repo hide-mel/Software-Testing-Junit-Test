@@ -1,0 +1,46 @@
+Testsuite: swen90006.fotbot.BoundaryTests
+Tests run: 19, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.182 sec
+
+Testcase: update_EQ1 took 0.005 sec
+Testcase: update_EQ2 took 0 sec
+Testcase: update_EQ3 took 0 sec
+Testcase: update_EQ4 took 0.037 sec
+Testcase: update_EQ5 took 0.009 sec
+Testcase: resister_EQ1 took 0.013 sec
+	Caused an ERROR
+Unexpected exception, expected<swen90006.fotbot.InvalidUsernameException> but was<swen90006.fotbot.InvalidPasswordException>
+java.lang.Exception: Unexpected exception, expected<swen90006.fotbot.InvalidUsernameException> but was<swen90006.fotbot.InvalidPasswordException>
+Caused by: swen90006.fotbot.InvalidPasswordException: Password Re1 does not comply with the requirements
+	- must contains at least 8 characters
+ and one special character that is not a letter or digit
+	at swen90006.fotbot.FotBot.register(FotBot.java:103)
+	at swen90006.fotbot.BoundaryTests.resister_EQ1(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: resister_EQ2 took 0.001 sec
+Testcase: resister_EQ3 took 0 sec
+Testcase: resister_EQ4 took 0.001 sec
+Testcase: resister_EQ5 took 0 sec
+Testcase: getSteps_EQ1 took 0 sec
+Testcase: getSteps_EQ2 took 0 sec
+Testcase: getSteps_EQ3 took 0 sec
+Testcase: getSteps_EQ4 took 0 sec
+Testcase: getSteps_EQ5 took 0 sec
+Testcase: getSteps_EQ6 took 0.002 sec
+Testcase: getSteps_EQ7 took 0.001 sec
+Testcase: resister_EQ1_2 took 0 sec
+	Caused an ERROR
+Unexpected exception, expected<swen90006.fotbot.InvalidUsernameException> but was<swen90006.fotbot.InvalidPasswordException>
+java.lang.Exception: Unexpected exception, expected<swen90006.fotbot.InvalidUsernameException> but was<swen90006.fotbot.InvalidPasswordException>
+Caused by: swen90006.fotbot.InvalidPasswordException: Password  does not comply with the requirements
+	- must contains at least 8 characters
+ and one special character that is not a letter or digit
+	at swen90006.fotbot.FotBot.register(FotBot.java:103)
+	at swen90006.fotbot.BoundaryTests.resister_EQ1_2(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: resister_EQ2_2 took 0.001 sec

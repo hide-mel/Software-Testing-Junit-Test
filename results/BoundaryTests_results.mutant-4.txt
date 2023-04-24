@@ -1,0 +1,66 @@
+Testsuite: swen90006.fotbot.BoundaryTests
+Tests run: 19, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.248 sec
+
+Testcase: update_EQ1 took 0.006 sec
+Testcase: update_EQ2 took 0 sec
+Testcase: update_EQ3 took 0.001 sec
+Testcase: update_EQ4 took 0.049 sec
+Testcase: update_EQ5 took 0.014 sec
+Testcase: resister_EQ1 took 0.013 sec
+Testcase: resister_EQ2 took 0.006 sec
+	Caused an ERROR
+Unexpected exception, expected<swen90006.fotbot.InvalidPasswordException> but was<swen90006.fotbot.InvalidUsernameException>
+java.lang.Exception: Unexpected exception, expected<swen90006.fotbot.InvalidPasswordException> but was<swen90006.fotbot.InvalidUsernameException>
+Caused by: swen90006.fotbot.InvalidUsernameException: Username Reg2 does not comply with the requirements
+	- must contains at least 4 characters
+	at swen90006.fotbot.FotBot.register(FotBot.java:103)
+	at swen90006.fotbot.BoundaryTests.resister_EQ2(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: resister_EQ3 took 0.001 sec
+	Caused an ERROR
+Unexpected exception, expected<swen90006.fotbot.InvalidPasswordException> but was<swen90006.fotbot.InvalidUsernameException>
+java.lang.Exception: Unexpected exception, expected<swen90006.fotbot.InvalidPasswordException> but was<swen90006.fotbot.InvalidUsernameException>
+Caused by: swen90006.fotbot.InvalidUsernameException: Username Reg3 does not comply with the requirements
+	- must contains at least 4 characters
+	at swen90006.fotbot.FotBot.register(FotBot.java:103)
+	at swen90006.fotbot.BoundaryTests.resister_EQ3(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: resister_EQ4 took 0 sec
+Testcase: resister_EQ5 took 0 sec
+	Caused an ERROR
+Unexpected exception, expected<swen90006.fotbot.DuplicateUserException> but was<swen90006.fotbot.InvalidUsernameException>
+java.lang.Exception: Unexpected exception, expected<swen90006.fotbot.DuplicateUserException> but was<swen90006.fotbot.InvalidUsernameException>
+Caused by: swen90006.fotbot.InvalidUsernameException: Username Reg5 does not comply with the requirements
+	- must contains at least 4 characters
+	at swen90006.fotbot.FotBot.register(FotBot.java:103)
+	at swen90006.fotbot.BoundaryTests.resister_EQ5(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: getSteps_EQ1 took 0.001 sec
+Testcase: getSteps_EQ2 took 0 sec
+Testcase: getSteps_EQ3 took 0.001 sec
+Testcase: getSteps_EQ4 took 0 sec
+Testcase: getSteps_EQ5 took 0 sec
+Testcase: getSteps_EQ6 took 0.001 sec
+Testcase: getSteps_EQ7 took 0 sec
+Testcase: resister_EQ1_2 took 0.001 sec
+Testcase: resister_EQ2_2 took 0 sec
+	Caused an ERROR
+Unexpected exception, expected<swen90006.fotbot.InvalidPasswordException> but was<swen90006.fotbot.InvalidUsernameException>
+java.lang.Exception: Unexpected exception, expected<swen90006.fotbot.InvalidPasswordException> but was<swen90006.fotbot.InvalidUsernameException>
+Caused by: swen90006.fotbot.InvalidUsernameException: Username Reg2 does not comply with the requirements
+	- must contains at least 4 characters
+	at swen90006.fotbot.FotBot.register(FotBot.java:103)
+	at swen90006.fotbot.BoundaryTests.resister_EQ2_2(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

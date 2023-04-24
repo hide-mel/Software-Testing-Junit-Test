@@ -1,0 +1,26 @@
+Testsuite: swen90006.fotbot.BoundaryTests
+Tests run: 19, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.152 sec
+
+Testcase: update_EQ1 took 0.008 sec
+Testcase: update_EQ2 took 0 sec
+Testcase: update_EQ3 took 0 sec
+Testcase: update_EQ4 took 0.037 sec
+Testcase: update_EQ5 took 0.01 sec
+Testcase: resister_EQ1 took 0.008 sec
+Testcase: resister_EQ2 took 0.001 sec
+Testcase: resister_EQ3 took 0.005 sec
+	FAILED
+Expected exception: swen90006.fotbot.InvalidPasswordException
+junit.framework.AssertionFailedError: Expected exception: swen90006.fotbot.InvalidPasswordException
+
+Testcase: resister_EQ4 took 0.001 sec
+Testcase: resister_EQ5 took 0.001 sec
+Testcase: getSteps_EQ1 took 0 sec
+Testcase: getSteps_EQ2 took 0 sec
+Testcase: getSteps_EQ3 took 0 sec
+Testcase: getSteps_EQ4 took 0 sec
+Testcase: getSteps_EQ5 took 0 sec
+Testcase: getSteps_EQ6 took 0.001 sec
+Testcase: getSteps_EQ7 took 0 sec
+Testcase: resister_EQ1_2 took 0 sec
+Testcase: resister_EQ2_2 took 0.001 sec
